@@ -1,234 +1,347 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    width: 100%;
-    background-color: #f2f2f2;
-  }
-  
-  html {
-    overflow-x: hidden;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  .heading-image {
-    position: absolute;
-  }
+body {
+  background-color: #f2f2f2;
+}
 
-  .c-logo {
-    margin: 123px 125px;
-  }
+html {
+  overflow-x: hidden;
+}
 
-  .first-header {
-    font-family: 'Bai Jamjuree';
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 40px;
-    text-align: center;
-    color: #4C545C;
-    padding: 0 32px;
-    margin-top: -60px;
-  }
+.heading-img-and-logo {
+  display: flex;
+  justify-content: center;
+}
 
-  .description {
-    font-family: 'Bai Jamjuree';
-    width: 374px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    color: #9EABB2;
-    padding: 16px 32px;
-  }
+.heading-image {
+  position: absolute;
+  width: 100%;
+}
 
-  .button {
-    padding: 13px 50px;
-    background: #26BBA4;
-    box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
-    border-radius: 28px;
-    cursor: pointer;
-    transition: 0.5s;
-    }
+.c-logo {
+  margin: 123px 125px;
+}
 
-    .button:hover {
-        background-color: rgb(122, 171, 188);
-    }
+.first-header {
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #4c545c;
+  padding: 0 32px;
+  margin-top: -60px;
+}
 
+.description {
+  font-family: "Bai Jamjuree";
+  width: 374px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #9eabb2;
+  padding: 16px 32px;
+  margin: 0 auto;
+}
 
-  .ios {
-    margin-left: 32px;
-    margin-top: 36px;
-    margin-right: 32px;    
-    }
+.download-buttons {
+  width: 375px;
+  margin: 0 auto;
+}
 
-  .mac {
-    background: #6174FF;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
-    border-radius: 28px;   
-    margin-left: 32px;
-    margin-top: 24px;
-    margin-right: 32px;  
-  }
+.button {
+  position: relative;
+  z-index: 10;
+  padding: 13px 50px;
+  background: #26bba4;
+  box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305),
+    inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+  border-radius: 28px;
+  cursor: pointer;
+  transition: 0.5s;
+}
 
-  .mac:hover {
-    background-color: rgb(122, 171, 188);
-  }
+.button:hover {
+  background-color: rgb(122, 171, 188);
+}
 
-  .ios-text {
-    font-family: 'Bai Jamjuree';
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 30px;
-    text-align: center;
-    color: #FFFFFF;
-  }
+.ios {
+  margin-top: 36px;
+}
 
-  .second-header {
-    font-family: 'Bai Jamjuree';
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 35px;
-    text-align: center;
-    color: #4C545C;
-    margin-top: 160px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
+.mac {
+  background: #6174ff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035),
+    inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+  border-radius: 28px;
+  margin-top: 24px;
+}
 
-  .description2 {
-    font-family: 'Bai Jamjuree';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    color: #9EABB2;
-    margin-top: 16px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-  
-  .computer {
-    margin-top: 65px;
-    padding-left: 32px;
-    padding-right: 32px;
+.mac:hover {
+  background-color: rgb(122, 171, 188);
+}
+
+.ios-text {
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.second-header {
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  color: #4c545c;
+  margin-top: 160px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.description2 {
+  font-family: "Bai Jamjuree";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #9eabb2;
+  margin: 16px auto;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.computer-div {
+  display: flex;
+  justify-content: center;
+}
+
+.computer {
+  margin-top: 65px;
 }
 
 .articles {
-    font-family: 'Bai Jamjuree';
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 30px;
-    text-align: center;
-    color: #4C545C;
-    margin-top: 48px;
-    padding-left: 32px;
-    padding-right: 32px;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #4c545c;
+  margin-top: 48px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .article1 {
-    margin-top: 56px;
+  margin-top: 56px;
 }
 
 .descriptions {
-    font-family: 'Bai Jamjuree';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    color: #9EABB2;
-    margin-top: 10px;
-    padding-left: 32px;
-    padding-right: 32px;
+  width: 400px;
+  font-family: "Bai Jamjuree";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #9eabb2;
+  margin: 10px auto;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .article2 {
-    margin-top: 186px;
+  margin-top: 186px;
 }
 
-.devices {
-    margin-top: 64px;
-    padding-right: 32px;
+.devices-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
 }
 
 .article3 {
-    margin-top: 0px;
+  margin-top: 0px;
+}
+
+.icon-div {
+  display: flex;
+  justify-content: center;
 }
 
 .icon {
-    margin-top: 90px;
-    margin-left: 170px;
+  margin-top: 90px;
+}
+
+.google-div {
+  display: flex;
+  justify-content: center;
 }
 
 .logo {
-    display: block;
-    margin-top: 57px;
-    margin-left: 127px;
+  display: block;
+  margin-top: 57px;
 }
 
 .google {
-    margin-top: 131px;
-    margin-left: 118px;
-}
-
-.microsoft {
-    margin-left: 120px;
+  margin-top: 131px;
+  margin-left: 0px;
 }
 
 .last-article {
-    font-size: 28px;
-    margin-top: 170px;
+  font-size: 28px;
+  margin-top: 170px;
 }
 
 .footer {
-    background-color: lightgray;
-    padding-top: 52px;
-    padding-bottom: 52px;
-    margin-top: 170px;
+  background-color: lightgray;
+  padding-top: 52px;
+  padding-bottom: 52px;
+  margin-top: 170px;
+}
+
+.footer-and-logo {
+  display: flex;
+  justify-content: center;
 }
 
 .last-logo {
-    width: 45px;
-    margin-left: 165px;
+  width: 45px;
 }
 
 .links {
-    font-family: 'Bai Jamjuree';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    text-align: center;
-    color: #4C545C;
-    margin-top: 20px;
+  font-family: "Bai Jamjuree";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #4c545c;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.links:hover {
+  color: #26bba4;
+  transition: 0.5s;
 }
 
 .faq {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .icons-div {
-    display: flex;
-    gap: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 
 .icons {
-    margin-top: 50px;
-    cursor: pointer;
-}
-
-.fb {
-    margin-left: 110px;
+  margin-top: 50px;
+  cursor: pointer;
 }
 
 .fb:hover {
-    filter: invert(10%) sepia(91%) saturate(7498%) hue-rotate(248deg) brightness(86%) contrast(145%);
+  filter: invert(10%) sepia(91%) saturate(7498%) hue-rotate(248deg)
+    brightness(86%) contrast(145%);
 }
 
 .twitter:hover {
-    filter: invert(81%) sepia(19%) saturate(959%) hue-rotate(165deg) brightness(93%) contrast(99%);
+  filter: invert(81%) sepia(19%) saturate(959%) hue-rotate(165deg)
+    brightness(93%) contrast(99%);
 }
 
 .instagram:hover {
-    filter: invert(27%) sepia(82%) saturate(5983%) hue-rotate(353deg) brightness(99%) contrast(132%);
+  filter: invert(27%) sepia(82%) saturate(5983%) hue-rotate(353deg)
+    brightness(99%) contrast(132%);
+}
+
+@media (min-width: 768px) {
+  .first-header {
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  .description {
+    width: 500px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-top: 30px;
+  }
+
+  .description2 {
+    width: 540px;
+  }
+
+  .second-header {
+    font-size: 30px;
+    line-height: 37px;
+    margin-top: 100px;
+  }
+
+  .computer-div-and-articles {
+    display: flex;
+    justify-content: center;
+  }
+
+  .computer {
+    margin-top: -195px;
+  }
+
+  .article1 {
+    margin-top: 100px;
+  }
+
+  .articles {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .descriptions {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .article2 {
+    margin-left: -65%;
+  }
+
+  .descriptions2 {
+    margin-left: -32%;
+  }
+
+  .devices {
+    width: 70%;
+  }
+
+  .icons-and-articles {
+    display: flex;
+    justify-content: center;
+  }
+
+  .icon-and-article2 {
+    margin-top: 8px;
+  }
+
+  .four-logos {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 60px;
+  }
+
+  .last-logo {
+    width: 60px;
+  }
+
+  .faq {
+    font-size: 20px;
+    line-height: 32px;
+  }
 }
