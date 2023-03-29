@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.heading-image-desktop {
+  display: none;
+}
+
+.computer-desktop {
+  display: none;
+}
+
 body {
   background-color: #f2f2f2;
 }
@@ -343,5 +351,158 @@ html {
   .faq {
     font-size: 20px;
     line-height: 32px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .heading-image-desktop {
+    position: absolute;
+    display: block;
+    width: 100%;
+  }
+
+  .heading-image {
+    display: none;
+  }
+
+  .computer-desktop {
+    display: block;
+    margin-left: -161px;
+    margin-top: -172px;
+  }
+
+  .computer {
+    display: none;
+  }
+
+  .first-header {
+    font-size: 46px;
+  }
+
+  .description {
+    width: 655px;
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .download-buttons {
+    width: 540px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .mac {
+    margin-top: 36px;
+  }
+
+  .second-header {
+    font-size: 36px;
+    line-height: 34px;
+  }
+
+  .description2 {
+    width: 600px;
+    font-size: 22px;
+    line-height: 32px;
+    margin-top: 25px;
+  }
+
+  .articles {
+    font-size: 36px;
+    line-height: 34px;
+  }
+
+  .article1 {
+    margin-top: 125px;
+  }
+
+  .descriptions {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .articles-and-descriptions {
+    margin-left: 80px;
+  }
+
+  .article2 {
+    margin-left: -88%;
+  }
+
+  .descriptions2 {
+    width: 730px;
+    margin-left: -45%;
+  }
+
+  .descriptions3 {
+    width: 540px;
+    margin-top: 20px;
+  }
+
+  .icons-and-articles-main {
+    display: flex;
+    margin-left: 250px;
+  }
+
+  .all-logos {
+    display: flex;
+    justify-content: center;
+    gap: 109px;
+    align-items: center;
+  }
+
+  .google-and-ibm {
+    display: flex;
+    gap: 60px;
+  }
+
+  .microsoft-and-hp {
+    display: flex;
+    gap: 60px;
+  }
+
+  .logo {
+    margin-top: 125px;
+  }
+
+  .last-description {
+    width: 885px;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    padding-left: 170px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .faq {
+    font-size: 22px;
+    line-height: 34px;
+    margin: 0;
+    text-align: left;
+  }
+
+  .links-div {
+    display: flex;
+    gap: 100px;
+  }
+
+  .last-logo {
+    margin-right: 135px;
+  }
+
+  .icons-div {
+    margin-left: 280px;
+  }
+
+  .icons {
+    margin-top: 0;
+  }
+
+  .last-description {
+    width: 885px;
   }
 }
